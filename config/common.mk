@@ -4,6 +4,15 @@ PRODUCT_BRAND := stag
 PRODUCT_DEVICE := generic
 EXCLUDE_SYSTEMUI_TESTS := true
 
+# Themes
+PRODUCT_PACKAGES += \
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SystemUIDarkTheme \
+    SettingsBlackTheme \
+    SystemBlackTheme \
+    SystemUIBlackTheme
+
 # Accents
 PRODUCT_PACKAGES += \
     AmberAccent \
